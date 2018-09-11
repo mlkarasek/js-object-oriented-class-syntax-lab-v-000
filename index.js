@@ -6,23 +6,23 @@ class BoardMember {
   }
 
   sayVeto() {
-    console.log(`No, I must disagree`)
+    return `No, I must disagree`return 
   }
 
   sayApprove() {
-    console.log(`You can do that!`)
+    return `You can do that!`
   }
 
   sayDoCharity() {
-    console.log(`I like to help people.`)
+    return `I like to help people.`
   }
 
   sayReleasePressStatement() {
-    console.log(`You will see great things from Scuber.`)
+    return `You will see great things from Scuber.`
   }
 
   sayHi() {
-    console.log(`Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`)
+    return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`
   }
 
 
