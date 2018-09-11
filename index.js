@@ -1,4 +1,4 @@
-class BoardMember {
+class BoardMembers {
   constructor(name, homestate, training) {
     this.name = name;
     this.homestate = homestate;
