@@ -5,19 +5,19 @@ class BoardMember {
     this.training = training;
   };
 
-  sayVeto() {
+  Veto() {
     return "No, I must disagree"
   };
 
-  sayApprove() {
+  Approve() {
     return 'You can do that!'
   };
 
-  sayDoCharity() {
+  DoCharity() {
     return 'I like to help people.'
   };
 
-  sayReleasePressStatement() {
+  ReleasePressStatement() {
     return 'You will see great things from Scuber.'
   };
 
