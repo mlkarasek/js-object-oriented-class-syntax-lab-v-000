@@ -6,7 +6,7 @@ class BoardMember {
   }
 
   sayVeto() {
-    return 'No, I must disagree'
+    return "No, I must disagree"
   }
 
   sayApprove() {
